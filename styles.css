@@ -39,7 +39,7 @@ body {
   --left: 0;
   position: absolute;
   width: 300%;
-  bottom: 0;
+  bottom: -5px;
   left: calc(var(--left) * 1%)
 }
 
@@ -47,7 +47,7 @@ body {
   --bottom: 0;
   position: absolute;
   left: 1%;
-  height: 30%;
+  height: 25%;
   bottom: calc(var(--bottom) * 1%);
 }
 
